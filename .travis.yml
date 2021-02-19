@@ -18,7 +18,7 @@ after_success:
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub
-  - docker push rbiagtan/multi-cilent
+  - docker push rbiagtan/multi-client
   - docker push rbiagtan/multi-nginx
   - docker push rbiagtan/multi-server
   - docker push rbiagtan/multi-worker
