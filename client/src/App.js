@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React Feb 23 2307
+            Learn React Feb 24 2300
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
